@@ -1,13 +1,11 @@
+import Vue from 'vue'
+import alert from './alert.vue'
+
 const defaults = {
   message: '',
   type: 'success',
   placement: 'top'
 }
-
-console.log('alert')
-
-import Vue from 'vue'
-import alert from './alert.vue'
 
 function merge (target) {
   var i, l, source, value
