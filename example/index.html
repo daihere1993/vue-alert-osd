@@ -4,13 +4,9 @@
   <meta charset="UTF-8">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui, maximum-scale=1.0, minimum-scale=1.0">
-  <style media="screen">
-    button {
-      padding: 1em;
-      margin-bottom: .5em;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      background-color: #fff;
+  <style>
+    .btn {
+      margin: 10px;
     }
   </style>
   <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +14,10 @@
   <title>vue-msgbox examples</title>
 </head>
 <body>
-  <button type="button" showbase>Click here to show alert.</button>
+  <button class="btn btn-success" type="button" success>success</button>
+  <button class="btn btn-info" type="button" info>info</button>
+  <button class="btn btn-warning" type="button" warning>warning</button>
+  <button class="btn btn-danger" type="button" danger>danger</button>
   <script src="../node_modules/vue/dist/vue.js"></script>
   <script src="./dist/build.js"></script>
 </body>
