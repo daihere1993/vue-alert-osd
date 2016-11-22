@@ -8,14 +8,6 @@ options.output = {
   filename: 'vue-alert-osd.js',
   path: './lib'
 }
-options.externals = {
-  vue: {
-    root: 'Vue',
-    commonjs: 'vue',
-    commonjs2: 'vue',
-    amd: 'vue'
-  }
-}
-options.plugins = [new ExtractTextPlugin('vue-alert.css')]
+options.plugins = [new ExtractTextPlugin('vue-alert-osd.css')]
 options.vue.loaders.css = ExtractTextPlugin.extract('style', 'css')
 module.exports = options

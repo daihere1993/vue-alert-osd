@@ -1,5 +1,5 @@
 const path = require('path'),
-  projectRoow = path.resolve(__dirname, './')
+  projectRoot = path.resolve(__dirname, './')
 
 module.exports = {
   module: {
@@ -8,8 +8,9 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel',
-        include: projectRoow,
-        exclude: /node_modules/ }
+        include: projectRoot,
+        exclude: /node_modules/ 
+      }
     ]
   },
   vue: {

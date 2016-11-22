@@ -4,7 +4,7 @@
   "description": "alert message widget base on vue",
   "main": "lib/vue-alert.js",
   "scripts": {
-    "dev": "webpack-dev-server --config ./webpack.example.config.js --inline --hot",
+    "example": "webpack-dev-server --config ./webpack.example.config.js --inline --hot",
     "build": "webpack -p"
   },
   "repository": {
