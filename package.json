@@ -1,6 +1,6 @@
 {
   "name": "vue-alert-osd",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "alert message widget base on vue",
   "main": "lib/vue-alert-osd.js",
   "scripts": {
