@@ -2,7 +2,7 @@
   "name": "vue-alert-osd",
   "version": "0.5.0",
   "description": "alert message widget base on vue",
-  "main": "lib/vue-alert.js",
+  "main": "lib/vue-alert-osd.js",
   "scripts": {
     "example": "webpack-dev-server --config ./webpack.example.config.js --inline --hot",
     "build": "webpack -p"
