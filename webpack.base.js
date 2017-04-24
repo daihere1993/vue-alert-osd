@@ -17,5 +17,10 @@ module.exports = {
     loaders: {
       js: 'babel!eslint'
     }
+  },
+  resolve: {
+    alias: {
+      vue: 'vue/dist/vue.js'
+    }
   }
 }

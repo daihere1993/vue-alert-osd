@@ -38,7 +38,7 @@ function showWidget (params) {
         instance[prop] = options[prop]
       }
     }
-    instance.$appendTo(document.body)
+    document.body.appendChild(instance.$el)
 
     Vue.nextTick(() => {
       instance.visible = true
