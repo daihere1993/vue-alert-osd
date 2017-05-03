@@ -1,8 +1,12 @@
-const options = require('./webpack.base.js')
+var baseWebpackConfig = require('./webpack.base.js')
+var merge = require('webpack-merge')
 
-options.entry = './example'
-options.output = {
-  filename: './example/dist/build.js',
-  publicPath: '/'
-}
-module.exports = options
+var webpackConfig = merge(baseWebpackConfig, {
+  entry: './example',
+  output: {
+    filename: './example/dist/build.js',
+    publicPath: '/'
+  }
+})
+
+module.exports = webpackConfig

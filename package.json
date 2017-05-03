@@ -1,10 +1,10 @@
 {
   "name": "vue-alert-osd",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "alert message widget base on vue",
-  "main": "lib/vue-alert-osd.js",
+  "main": "lib/vue-alert-osd.min.js",
   "scripts": {
-    "example": "webpack-dev-server --config ./webpack.example.config.js --inline --hot",
+    "example": "webpack-dev-server --config ./webpack.example.config.js --port 3034 --inline --hot",
     "build": "webpack -p"
   },
   "repository": {
@@ -42,7 +42,8 @@
     "vue-loader": "^8.3.0",
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "webpack-dev-server": "^1.14.0",
+    "webpack-merge": "^4.1.0"
   },
   "dependencies": {
     "font-awesome": "^4.7.0"
